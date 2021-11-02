@@ -1,0 +1,166 @@
+
+.headers {    
+    padding: 10px 10px;
+    background-color: #006d77;    
+    color: #ffffff;    
+    text-align: center;
+}
+
+.main{
+  background-image: url('../Projek/bg2.png');
+  padding: 280px 50px;
+  background-size: cover;
+        
+      
+}
+
+main {
+   padding: 20px;
+   overflow: auto;
+}
+
+nav {
+  padding : 10px ;
+  text-align: center;  
+  color: white;  
+  position: sticky; 
+  background-color:#006d77 ;
+  top: 0;
+}
+
+header {
+   display: inline;
+}
+nav a{
+    color: white;
+    font-size: 20px;
+     text-decoration: none;
+}
+
+.heading h1{
+  color: #ffffff;
+  padding: 0 5px;
+  margin: 2px;
+   text-shadow: 5px 2px 5px black;
+   
+}
+
+.heading p,blockquote{
+  color: #ffffff;
+  padding: 0 5px;
+  margin: 0 auto;
+  font-size: 18px;
+
+}
+
+
+
+nav li {
+   text-align: right;    
+   display: inline-block;
+   list-style-type: none;   
+
+}
+
+body{
+  font-family: 'Patrick Hand',sans-serif;
+    margin: 0;
+   padding: 0;
+}
+
+.btn {
+  padding: 8px 20px;
+  color: #005649;  
+  opacity: 1.0;
+  border-radius: 32px;
+  margin: 0px 10px;
+}
+
+.btn:hover{
+  opacity: 1.0;
+  background-color: #005649 ;
+  color: #ffffff;
+}
+
+.head {
+  text-align: center;
+  background-color: #ffffff;
+  color: #333333;
+}
+
+.content{
+  height: 500px;
+  padding-bottom: 80px;
+  background-color: #f7f7f7;
+}
+
+ 
+.content-coffee h2{
+  text-align: center;
+  color: #333333;
+}
+
+.content-coffee img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.content-coffee p{
+  text-align: center;
+  font-size: 14px;
+  color: #333333;
+}
+
+ .lesson {
+  float: left;
+  width: 50%;  
+  text-align: center;
+}
+
+
+
+.txt-contents {
+  text-align: center;
+  width: 50%;
+  display: inline-block;  
+  font-size: 15px;
+  color: #;
+}
+
+.profile img {
+   width: 200px;
+   border-style: solid;
+   border-radius: 32px;
+}
+
+
+aside{  
+  width: 100%;  
+  text-align: center;
+}
+
+footer {
+   padding: 10px; 
+   color: white;
+   background-color: #006d77 ;
+   text-align: center;
+   font-weight: bold;
+}
+
+
+ @media screen and (max-width: 1000px) {
+   #content,
+   aside {
+       width: 100%;
+       padding: 0;
+   }
+}
+
+ @media screen and (max-width: 600px) {
+    .btn {
+    padding: 4px 10px;
+     margin: 0PX;
+    }
+ }
